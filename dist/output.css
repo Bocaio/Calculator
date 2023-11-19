@@ -613,18 +613,9 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.p-2 {
-  padding: 0.5rem;
-}
-
 .px-2 {
   padding-left: 0.5rem;
   padding-right: 0.5rem;
-}
-
-.py-3 {
-  padding-top: 0.75rem;
-  padding-bottom: 0.75rem;
 }
 
 .py-4 {
@@ -667,10 +658,6 @@ video {
   --tw-shadow: var(--tw-shadow-colored);
 }
 
-.delay-200 {
-  transition-delay: 200ms;
-}
-
 .focus-visible\:outline-none:focus-visible {
   outline: 2px solid transparent;
   outline-offset: 2px;
@@ -695,29 +682,4 @@ video {
 .active\:text-white:active {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-.active\:text-black:active {
-  --tw-text-opacity: 1;
-  color: rgb(0 0 0 / var(--tw-text-opacity));
-}
-
-.active\:delay-500:active {
-  transition-delay: 500ms;
-}
-
-.active\:delay-200:active {
-  transition-delay: 200ms;
-}
-
-.active\:delay-75:active {
-  transition-delay: 75ms;
-}
-
-.active\:duration-300:active {
-  transition-duration: 300ms;
-}
-
-.active\:duration-500:active {
-  transition-duration: 500ms;
 }
